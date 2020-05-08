@@ -1,0 +1,12 @@
+config:
+  aws:region: us-east-1
+  pulumi-infra-az:zones_amount: 3
+  pulumi-infra-az:vpc_cidr: 172.255.0.0/16
+  pulumi-infra-az:private_subnet_cidrs:
+    - 172.255.100.0/24
+    - 172.255.101.0/24
+    - 172.255.102.0/24
+  pulumi-infra-az:public_subnet_cidrs:
+    - 172.255.110.0/24
+    - 172.255.111.0/24
+    - 172.255.112.0/24
