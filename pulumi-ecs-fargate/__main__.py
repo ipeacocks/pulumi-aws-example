@@ -14,7 +14,7 @@ config = Config()
 
 # ---------------
 
-# Reading local state
+# Reading S3 state
 infra = StackReference(f"pulumi-infra-az_dev")
 
 # --------------
